@@ -1,0 +1,38 @@
+# ~/.config/ghostty/config
+
+theme = GitHub Dark High Contrast
+window-theme = dark
+window-vsync = false
+gtk-single-instance = false
+async-backend = epoll
+
+font-family = "Ubuntu Mono"
+font-family = "DejaVu Sans Mono"
+font-size = 15
+adjust-cell-height = 10%
+minimum-contrast = 3
+bold-color = #79C0FF
+faint-opacity = 0.75
+
+window-padding-x = 10
+window-padding-y = 8
+window-padding-balance = true
+
+background-opacity = 1.0
+background-blur = false
+unfocused-split-opacity = 0.85
+
+cursor-style = bar
+cursor-style-blink = false
+cursor-color = #79C0FF
+cursor-text = #0D1117
+selection-background = #2F81F7
+selection-foreground = #F0F6FC
+
+copy-on-select = clipboard
+selection-clear-on-copy = true
+mouse-hide-while-typing = true
+
+# WSL path currently emits noisy OSC end-of-command sequences in some setups.
+# Disable shell integration to avoid per-command warning spam and overhead.
+shell-integration = none
